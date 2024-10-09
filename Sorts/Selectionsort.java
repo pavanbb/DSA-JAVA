@@ -9,7 +9,7 @@ public class Selectionsort {
                 if (values[j] < values[minValue]) {
                     minValue = j;  // Update the index of the minimum value
                 }
-            }
+            } 
 
             // Swap the minimum value with the current element
             int temp = values[minValue];
